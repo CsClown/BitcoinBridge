@@ -23,14 +23,18 @@ header {
 }
 
 nav {
-    
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    /* display: flex; */
     width: fit-content;
-    left: 85%;
-    top: 3%;
+    right: 0%;
+    top: 5%;
 }
 
+
 #nav-bar-toggle {
-    display: none;
+    /* display: none; */
 }
 
 #nav-bar-toggle:checked~nav {
@@ -39,10 +43,13 @@ nav {
 
 
 #menu {
+    /* display: none; */
+    text-align: right;
+    left: 0%;
     list-style: none;
     letter-spacing: 2px;
-    
-    }
+    border: 1px solid black;
+}
 
 #menu li {
     padding: 10px;
@@ -61,6 +68,16 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+    
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    #nav-bar-toggle-label {
+        display: none;
+    }
     #menu {
         list-style: none;
         display:flex;
