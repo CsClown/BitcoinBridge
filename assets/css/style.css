@@ -9,6 +9,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    box-shadow: 0 2px 2px #f0f0f0;
+}
+
+h1, h2, h3 {
+    text-transform: lowercase;
+}
 header {
     border: 1px solid grey;
     display: flex;
@@ -32,7 +45,7 @@ nav {
     top: 11%;
 }
 
-
+/* checkbox */
 #nav-bar-toggle {
     display: none;
 }
@@ -61,8 +74,26 @@ main {
 }
 
 footer {
-    height: 20px;
+    display: flex;
+    justify-content: center;
     border: 1px solid green;
+}
+
+footer > div {
+    background-color: lightgrey;
+    font-size: 200%;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    width: 75%;
+    border: 1px solid black;
+}
+
+footer a {
+    color: black;
+    
 }
 
 
