@@ -11,10 +11,41 @@ body {
 }
 header {
     border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
 }
+
+#logo {
+    letter-spacing: 2px;
+
+}
+
+nav {
+    
+    width: fit-content;
+    left: 85%;
+    top: 3%;
+}
+
+#nav-bar-toggle {
+    display: none;
+}
+
+#nav-bar-toggle:checked~nav {
+    display: block;
+}
+
 
 #menu {
     list-style: none;
+    letter-spacing: 2px;
+    
+    }
+
+#menu li {
+    padding: 10px;
 }
 
 main {
@@ -25,4 +56,17 @@ main {
 footer {
     height: 20px;
     border: 1px solid green;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #menu {
+        list-style: none;
+        display:flex;
+        }
+    
+    #menu li {
+        padding: 10px;
+    }
 }
