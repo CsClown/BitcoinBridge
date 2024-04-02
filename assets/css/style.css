@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    background-color: black;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Inter", sans-serif;
+    color: beige;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: beige;
 }
 
 a:hover {
@@ -20,10 +28,10 @@ a:hover {
 }
 
 h1, h2, h3 {
-    text-transform: lowercase;
+    text-transform: none;
 }
 header {
-    border: 1px solid grey;
+    border: 1px dashed grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +58,10 @@ nav {
     display: none;
 }
 
+#nav-bar-toggle-label {
+    font-size: 200%;
+}
+
 #nav-bar-toggle:checked~nav {
     display: block;
 }
@@ -69,30 +81,30 @@ nav {
 }
 
 main {
-    border: 1px solid red;
+   
     flex-grow: 1;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    border: 1px solid green;
+    border: 2px dashed lightgrey;
 }
 
 footer > div {
-    background-color: lightgrey;
+  
     font-size: 200%;
-    color: black;
+    color: inherit;
     display:flex;
     justify-content: space-around;
     align-items: center;
     height: 45px;
     width: 75%;
-    border: 1px solid black;
+  
 }
 
 footer a {
-    color: black;
+    color: inherit;
     
 }
 
@@ -102,8 +114,10 @@ footer a {
     
     
     nav {
+        position:relative;
         display: flex;
         align-items: center;
+        
     }
 
     #nav-bar-toggle-label {
