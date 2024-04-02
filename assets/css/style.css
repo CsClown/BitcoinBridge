@@ -24,14 +24,15 @@ a {
 }
 
 a:hover {
-    box-shadow: 0 2px 2px #f0f0f0;
+    opacity: 80%;
 }
 
 h1, h2, h3 {
     text-transform: none;
 }
 header {
-    border: 1px dashed grey;
+    position: relative;
+    border: 2px dashed beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +51,7 @@ nav {
     /* display: flex; */
     width: fit-content;
     right: 0%;
-    top: 11%;
+    top: 100%;
 }
 
 /* checkbox */
@@ -88,7 +89,7 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    border: 2px dashed lightgrey;
+    border: 2px dashed beige;
 }
 
 footer > div {
