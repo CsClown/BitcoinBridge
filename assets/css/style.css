@@ -82,10 +82,23 @@ nav {
 }
 
 main {
-   
+    
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
 
+#what {
+    min-height: 300px;
+    background-color: white;
+    flex-grow: 1;
+    border: 1px solid white;
+}
+
+#why {
+    flex-grow: 1;
+    border: 1px solid white;
+}
 footer {
     display: flex;
     justify-content: center;
