@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    border: 1px solid grey;
+}
+
+#menu {
+    list-style: none;
+}
+
+main {
+    border: 1px solid red;
+    flex-grow: 1;
+}
+
+footer {
+    height: 20px;
+    border: 1px solid green;
+}
