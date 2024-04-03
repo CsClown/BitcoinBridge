@@ -257,6 +257,34 @@ footer a {
 
 /* Gallery Page*/
 
+#gallery-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 0;
+}
+
+#gallery-container img {
+    width: 100%;
+    line-height: 1em;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+
 
 
 
