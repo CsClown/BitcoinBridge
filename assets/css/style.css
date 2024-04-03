@@ -7,7 +7,7 @@
 }
 
 html {
-    background: black url('../images/photo-1518546305927-5a555bb7020d.avif') no-repeat center center/cover;
+    background: black url('../images/photo-1543699539-33a389c5dcfe.avif') no-repeat center center/cover;
 }
 
 body {
@@ -31,14 +31,14 @@ h1, h2, h3 {
     text-transform: none;
 }
 header {
-    position: relative;
-    border: 2px dashed beige;
+    position: fixed;
     border-radius: 8px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    background-color: black;
+    background-color: rgba(0,0,0, 0.8);
 }
 
 #logo {
@@ -50,7 +50,6 @@ nav {
     display: none;
     position: absolute;
     border: 1px solid black;
-    /* display: flex; */
     width: fit-content;
     right: 0%;
     top: 100%;
@@ -83,12 +82,12 @@ nav {
     padding: 10px;
 }
 
-main {
-    
+main { 
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 1rem 3rem; 
+    margin: 4rem 2rem 1rem 2rem
+    
 }
 #quote {
     display: flex;
@@ -96,8 +95,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 200px;
-    background-color: black;
-    border: 1px solid beige;
+    background-color: rgba(0,0,0, 0.8);
     border-radius: 8px;
     text-align: center;
     padding: 1rem;
@@ -108,9 +106,8 @@ main {
 }
 #what {
     min-height: 300px;
-    background-color: black;
+    background-color: rgba(0,0,0, 0.8);
     flex-grow: 1;
-    border: 1px solid beige;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -125,9 +122,8 @@ main {
 
 #why {
     min-height: 300px;
-    background-color: black;
+    background-color: rgba(0,0,0, 0.8);
     flex-grow: 1;
-    border: 1px solid beige;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -142,14 +138,15 @@ main {
     font-size: 200%;
 }
 
-footer {
+footer { 
     display: flex;
+    justify-content: center;
     border: 2px dashed beige;
     border-radius: 8px;
+    background-color: rgba(0,0,0, 0.8);
 }
 
 footer > div {
-  
     font-size: 200%;
     color: inherit;
     display:flex;
