@@ -7,7 +7,7 @@
 }
 
 html {
-    background-color: black;
+    background: black url(assets/images/photo-1518546305927-5a555bb7020d.avif) no-repeat center center/cover;
 }
 
 body {
@@ -33,6 +33,7 @@ h1, h2, h3 {
 header {
     position: relative;
     border: 2px dashed beige;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,22 +88,44 @@ main {
     flex-direction: column;
     flex-grow: 1;
 }
-
+#quote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: black;
+    border: 1px solid beige;
+    border-radius: 8px;
+    text-align: center;
+    color
+}
 #what {
     min-height: 300px;
-    background-color: white;
+    background-color: black;
     flex-grow: 1;
-    border: 1px solid white;
+    border: 1px solid beige;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #why {
+    min-height: 300px;
+    background-color: black;
     flex-grow: 1;
-    border: 1px solid white;
+    border: 1px solid beige;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     display: flex;
     justify-content: center;
     border: 2px dashed beige;
+    border-radius: 8px;
 }
 
 footer > div {
@@ -120,6 +143,10 @@ footer > div {
 footer a {
     color: inherit;
     
+}
+
+.transparent {
+    opacity: 0.5;
 }
 
 
