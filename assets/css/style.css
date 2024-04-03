@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 header {
     position: fixed;
-    border-radius: 8px;
+    border-bottom: 1px solid beige;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -140,26 +140,34 @@ main {
 
 footer { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    border: 2px dashed beige;
-    border-radius: 8px;
+    align-items: center;
+    border-top: 1px solid beige;
+  
     background-color: rgba(0,0,0, 0.8);
 }
 
 footer > div {
-    font-size: 200%;
+    font-size: 150%;
     color: inherit;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 45px;
+    height: 30px;
     width: 75%;
-  
 }
 
+#social {
+    margin-top: 10px;;
+}
 footer a {
     color: inherit;
     
+}
+
+footer p {
+    font-size: 40%;
 }
 
 /* Contact form Page */
