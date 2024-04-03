@@ -39,6 +39,7 @@
     </header>
 
     <main>
+      <h3 id="contact-header">Do you have any questions? Feel free to ask!</h3>
       <div id="form-container">
         <form
           action="https://formdump.codeinstitute.net/"
@@ -46,19 +47,32 @@
           method="post"
         >
           <label for="name">Name</label>
-          <input type="text" name="name" id="name" class="text-input" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="text-input"
+            required
+          />
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" class="text-input" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="text-input"
+            required
+          />
 
+          <label for="message">Message</label>
           <textarea
             name="message"
             id="mesasge"
             cols="30"
             rows="10"
             class="text-input"
-          >
- Do you have any questions? Please ask! </textarea
-          >
+            required
+          ></textarea>
+          <button type="submit" id="submit-button">Send</button>
         </form>
       </div>
     </main>
