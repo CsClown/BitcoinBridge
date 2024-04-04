@@ -98,9 +98,11 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    max-width: 1200px;
     background-color: rgba(0,0,0, 0.8);
     color: beige;
     text-align: center;
+    
 
 
 }
@@ -362,10 +364,15 @@ footer p {
 
     #hero {
         min-height: 800px;
+        align-self: center;
+        border-left: 1px solid #f5f5dc;
+        border-right: 1px solid #f5f5dc;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
     }
 
     #hero > h3 {
-        font-size: 300%;
+        font-size: 400%;
+        padding: 0px 100px;
     }
 
     /* #reasons-section {
