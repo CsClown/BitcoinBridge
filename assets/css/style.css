@@ -267,11 +267,24 @@ footer p {
 
 /* Details / what is Bitcoin? */
 #details-image {
+    display:flex;
     background: #f5f5dc url('../images/whatisbitcoin1.jpeg') no-repeat center center /cover;
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 1200px;
+    color:#f5f5dc;
+    justify-content: center;
+    align-items: center;
 }
+
+#details-image h3 {
+    margin-top: 50px;
+    letter-spacing: 10px;
+}
+
+
 #article-header {
     font-size: 200%;
-    text-decoration: underline;
     align-self: center;
     margin-bottom: 1rem;
     text-align: center;
@@ -364,12 +377,15 @@ footer p {
         padding: 10px;
     }
 
+    main {
+        margin-top: 70px;
+    }
+
     #hero {
         min-height: 800px;
         align-self: center;
-        border-left: 1px solid #f5f5dc;
-        border-right: 1px solid #f5f5dc;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+        border: 2px solid #f5f5dc;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 0px;
     }
 
     #hero > h3 {
@@ -385,6 +401,16 @@ footer p {
     } */
     .reasons {
         max-width: 350px;
+        align-self:center;
+    }
+    #details-image {
+        align-self: center;
+        padding: 0 200px;
+        border: 2px solid #f5f5dc;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 0px;
+    }
+    .article {
+        max-width: 500px;
         align-self:center;
     }
     /* #reasons-section h3 {
