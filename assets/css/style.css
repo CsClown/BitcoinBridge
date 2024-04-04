@@ -221,18 +221,20 @@ footer p {
 #form-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgba(206, 206, 206, 0.8);
+    margin: 8px;
 }
 
 #contact-form {
-    display: flex;
+    display:flex;
     flex-direction: column;
-    background-color: rgba(185, 185, 185, 0.8);
-    min-width: 100%
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 600px;
+    align-self: center;
 }
 
 .text-input {
@@ -240,7 +242,6 @@ footer p {
     border: 1px solid beige;
     margin: 0.5rem;
     border-color: rgba(200,200,200, 0.8);
-    border-radius: 8px;
     width: 100%;
     color: beige;
 }
@@ -249,7 +250,6 @@ footer p {
     background-color: rgba(0,0,0, 0.8);
     color: beige;
     border: 1px solid beige;
-    border-radius: 8px;
     margin: 0.5rem;
     width: 100%;
 }
@@ -320,13 +320,13 @@ footer p {
 }
 
 
-/* Gallery Page*/
+/* Memes Page*/
 
 #gallery-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0, 0.8);
+    background-color:#f5f5dc;
     border-radius: 8px;
     margin: 1rem;
     padding: 1rem;
