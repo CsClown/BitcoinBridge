@@ -43,6 +43,7 @@ header {
 
 #logo {
     letter-spacing: 2px;
+    font-weight: 300;
 
 }
 
@@ -107,6 +108,8 @@ main {
 #hero > h3 {
     font-size: 150%;
     margin-bottom: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
 }
 .button {
     display: inline-block;
@@ -122,7 +125,7 @@ main {
 
 
 /* Reasons section */
-#reasons {
+#reasons-section {
     min-height: 300px;
     background-color: rgba(255, 255, 255, 0.8);
     flex-grow: 1;
@@ -139,6 +142,7 @@ main {
     align-self: center;
     margin-bottom: 1rem;
     text-align: center;
+    font-weight: 300;
     
 }
 
@@ -155,6 +159,11 @@ main {
 .reasons h3 {
     line-height: 200%;
     text-align: center;
+    font-weight: 300;
+}
+
+.reasons p {
+    font-weight: 400;
 }
 
 .reasons i {
@@ -354,9 +363,33 @@ footer p {
         font-size: 300%;
     }
 
-    .reasons {
+    /* #reasons-section {
+        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } */
+    .reasons {
         max-width: 350px;
+        align-self:center;
     }
+    /* #reasons-section h3 {
+        order: 2;
+    } */
+
+    /* #reason1 {
+        order:0;
+    }
+    #reason2 {
+        order:1;
+    }
+    #reason3 {
+        order:3;
+    }
+    #reason4 {
+        order:4;
+    } */
+
+
 
 }
