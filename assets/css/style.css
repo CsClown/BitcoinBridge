@@ -459,7 +459,7 @@ footer p {
 
 @media screen and (min-width: 1150px) {
     html {
-        background:rgb(0, 0, 0) url('../images/photo-1543699539-33a389c5dcfe.avif') no-repeat center center / cover;
+        /* background:rgb(0, 0, 0) url('../images/photo-1543699539-33a389c5dcfe.avif') no-repeat center center / cover; */
         display: flex;
         justify-content: center;
     }
