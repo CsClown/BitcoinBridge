@@ -133,7 +133,7 @@ main {
     
 }
 
-#reasons > h3 {
+#reasons-section > h3 {
     font-size: 200%;
     text-decoration: underline;
     align-self: center;
@@ -142,7 +142,7 @@ main {
     
 }
 
-.points {
+.reasons {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
@@ -152,16 +152,16 @@ main {
     border-radius: 8px;
     padding: 1rem;
 }
-.points h3 {
+.reasons h3 {
     line-height: 200%;
     text-align: center;
 }
 
-.points i {
+.reasons i {
     font-size: 200%;
 }
 
-.points hr {
+.reasons hr {
     border-bottom: 1px solid black;
 }
 
@@ -353,4 +353,10 @@ footer p {
     #hero > h3 {
         font-size: 300%;
     }
+
+    .reasons {
+        flex-wrap: wrap;
+        max-width: 350px;
+    }
+
 }
