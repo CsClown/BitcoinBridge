@@ -266,7 +266,9 @@ footer p {
 
 
 /* Details / what is Bitcoin? */
-
+#details-image {
+    background: #f5f5dc url('../images/whatisbitcoin1.jpeg') no-repeat center center /cover;
+}
 #article-header {
     font-size: 200%;
     text-decoration: underline;
