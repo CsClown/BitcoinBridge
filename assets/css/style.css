@@ -115,7 +115,13 @@ main {
     font-size: 150%;
     margin-bottom: 40px;
     font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#hero > p {
+    font-weight: 300;
     letter-spacing: 5px;
+    padding-bottom: 30px;
 }
 .button {
     display: inline-block;
