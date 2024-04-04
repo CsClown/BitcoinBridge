@@ -82,6 +82,11 @@ nav {
     padding: 10px;
 }
 
+.active {
+    background-color: white;
+    border-radius: 8px;
+}
+
 main { 
     margin-top: 55px;
     display: flex;
