@@ -309,7 +309,7 @@ footer p {
     font-weight: 300;
 }
 
-.article > i {
+.article i {
     font-size: 200%;
 }
 
@@ -351,6 +351,9 @@ footer p {
     border-radius: 8px;
     margin: 8px;
     padding: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+    border-radius: 8px;
+    padding: 1rem;
 }
 
 
@@ -361,7 +364,11 @@ footer p {
 
 
 @media screen and (min-width: 768px) {
-    
+    #gallery-container {
+        column-count: 2;
+        column-gap: 0;
+    }
+
     
     nav {
         position:relative;
