@@ -131,12 +131,13 @@ main {
 /* Reasons section */
 
 #reasons-header-big {
-    font-size: 300%;
-    text-decoration: underline;
+    font-size: 200%;
     align-self: center;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
     text-align: center;
     font-weight: 300;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 8px;
     /* display: none; */
 }
 
@@ -422,15 +423,7 @@ footer p {
         padding: 0px 100px;
     }
 
-    /* #reasons-section {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    } */
-    #reasons-header-big {
-        display:block;
-    }
+   
 
     #reasons-section > h3 {
         display: none;
@@ -453,25 +446,6 @@ footer p {
         max-width: 500px;
         align-self:center;
     }
-    /* #reasons-section h3 {
-        order: 2;
-    } */
-
-    /* #reason1 {
-        order:0;
-    }
-    #reason2 {
-        order:1;
-    }
-    #reason3 {
-        order:3;
-    }
-    #reason4 {
-        order:4;
-    } */
-
-
-
 }
 
 @media screen and (min-width: 1100px) {
