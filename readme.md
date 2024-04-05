@@ -1,10 +1,11 @@
-# Bitcoin Bridge
+
+# **_Wawas Woods_**
 
 Welcome to Bitcoin Bridge – Your first contact point to the world of Bitcoin!
 
-Our mission is to serve as the premier starting point for individuals eager to explore the vast potential and the foundational principles behind Bitcoin.
+The mission is to serve as the premier starting point for individuals eager to explore the vast potential and the foundational principles behind Bitcoin.
 
-We're dedicated to providing a welcoming, informative, and easily navigable experience for all visitors. Our aim is to offer clear, accessible insights into the value of the Bitcoin Network, the significance of its underlying movement, and the transformative impact it holds for the future.
+The aim is to offer clear, accessible insights into the value of the Bitcoin Network, the significance of its underlying movement, and the transformative impact it holds for the future.
 
 What Sets Us Apart?
 
@@ -14,141 +15,204 @@ What Sets Us Apart?
 
 - Comprehensive Resources: From novice to expert, every visitor can find something valuable. We've curated a selection of the most pertinent information, tools, and resources to enrich your understanding and appreciation of Bitcoin and its ecosystem.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+#### -- deployed site --  -> <a href="https://csclown.github.io/BitcoinBridge/index.html" target="_blank" rel="noopener">Bitcoin Brige</a> <-
 
-## Features
+![Bitcoin Bridge responsive design](assets/readme-images/responsive.png)
 
-- Navigation Bar
+# Contents
 
-* Featured on all pages, the full responsive navigation bar includes links to the Home page, Memes/Quotes section, Details section and the sign up page allowing for seemless navigation without having to rely on browser features like back and forth buttons
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *  [Typography](<#typography>)
+    *  [Color Scheme](<#color-scheme>)
+* [**Features**](<#features>)
+    * [**Home**](<#navigation-menu>)
+         * [Navigation menu](<#navigation-menu>)
+         * [Gallery](<#gallery>)
+         * [About-us](<#about-us>)
+         * [Testimonials](<#testimonials>)
+         * [Footer](<#footer>)
+    * [**Projects**](<#projects>)
+        * Dolls Cots
+        * Height Chart
+        * Walker
+    * [**Inspiration**](<#inspiration>)
+        * Elm
+        * Oak
+        * Elm
+    * [**Contact Us**](<#contact-us>)
+       * Contact details
+       * Location map
+       * Design Query form
+    * [**Form Confirmation**](<#form-confirmation>)
+    * [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
+# User Experience (UX)
 
-- **Navigation Bar**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+## Wireframes
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+The wireframes for Bitcoin Bridge were produced in [Figma](https://figma.com). There are frames for a full width display and a small mobile device. The final site varies from the wireframes due to developments that occured during the creation process. 
 
-- **The landing page image**
+![Desktop wireframe image](assets/readme-images/BBwireframedDesktop.png)
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+![Mobile wireframe image](assets/readme-images/BBwireframeMobile.jpg) 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+[Back to top](<#contents>)
 
-- **Club Ethos Section**
+## Site Structure
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+Wawas Woods website has four pages. The [home page](index.html) is the default loading page, [Details](Details.html), [Memes](memes.html) and [contact](contact.html) pages are all accessible primarily from the navigation menu. 
+You may always go back to the landing page by clicking the Bitcoin Bridge logo on the uppe left corner
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+[Back to top](<#contents>)
+## Design Choices
 
-- **Meetup Times section**
+ * ### Typography
+      The font chosen is 'Inter'. It falls back to sans-serif. 
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+ * ### Color Scheme
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+    The color scheme is minimalistic for less distraction and more content focus.
+    Beige (rgb 245,245,220) is the main color for most elements / backgrounds due to its pleasing and warm nature. I want the user to feel comforted.
 
-- **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+[Back to top](<#contents>)
+# Features
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+Bitcoin Bridge is designed to be user-friendly and inviting, equipped with familiar features like a navigation bar and a contact form. Its overall ambiance aims to be warm and non-intimidating, encouraging users to delve deeper.
 
-- **Gallery**
+## Existing Features  
+  * ### Navigation Menu
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+    * Positioned at the top of every page on the site, it is fully responsive and includes links to all the site's pages, facilitating easy navigation from a single, convenient spot.
+    * The logo on the upper left corner provides a way back to the home page when clicked.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Navigation bar image](assets/readme-images/navbar.png)
+[Back to top](<#contents>)
 
-- **The Sign Up Page**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  * ### Details
+    * The "Details" section offers explanations of what Bitcoin is tailored for three distinct audiences: a five-year-old, an average adult, and an IT and financial expert, ensuring the information meets the needs of everyone.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Details image](assets/readme-images/detailspage.png)
+[Back to top](<#contents>)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+  * ### Memes
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+    * The "Memes" section provides the user with some entertaing content which is also a big part of the Bitcoin culture and sometimes even educating by pointing out some intricacies or ins and outs of Bitcoin, the crypto space, the financial markets or the world and the people. The Bitcoin community has the best memes in the space!
 
-### Features Left to Implement
+![Memes image](assets/readme-images/memespage.png)
+[Back to top](<#contents>)
 
-- Another feature idea
+  * ### contact
 
-## Testing
+    * The "contact" section provides a means to get in touch with the Bitcoin enthusiast responsible for creating this site. It invites users to ask questions or engage in discussions on all things related to Bitcoin.
+    * There is a form that the user can choose to fill in. It has 3 input fields, name, email address and a textarea. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+![Contact image](assets/readme-images/contactpage.png)
+[Back to top](<#contents>)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+* ### Footer
+    
+    * Contains social media links. To enhance the UX the links open in other tabs.
+    * The social media presences will help the user with their research into Bitcoin and will also encourage them to connect with the creator of the site..
+    
+![Footer image](assets/readme-images/footer.png)
+[Back to top](<#contents>)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* ### Form Confirmation
+    * This page notifies the user that their details have been successfully submitted to Bitcoin Bridge, serving solely to validate the form for this project.
+    * It includes a direct link to the contact page, in addition to the standard navigation menu links found in both the header and footer.
 
-### Validator Testing
+![Form confirmation image](assets/readme-images/form-confirmation.png)
+[Back to top](<#contents>)
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+## Future Features 
 
-### Unfixed Bugs
+* A section on the landing page with interesting data like price developement  and active Bitcoin adresses over different timeframes.
+Visually appealing with some graphs and interesting stats.
+* Revise the "Details" section by dividing it into two distinct pages: one titled "What is Bitcoin," focusing on the basics of Bitcoin, and another named "Why It Matters," which delves deeper into the political and societal implications and consequences of this new form of global currency.
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+[Back to top](<#contents>)
 
-## Deployment
+# Technologies Used
+* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [Figma](https://figma.com) - used to create the wireframes.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Github](https://github.com/) - used to host and edit the website.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+[Back to top](<#contents>)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+# Testing
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+Please refer to [**_here_**](TESTING.md) for more information on testing Wawas Woods.
 
-## Credits
+[Back to top](<#contents>)
 
-Bitcoin memes from twitter/x account @bitcoinmemes
-Background images from unsplash.com
-Icons from Fontawesome.com
-FOnts from googlefonts.com
+# Deployment
 
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  3. Under **Source**, select the branch to **main**, then click **save**.
+  4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![GitHub pages deployed image](assets/readme-images/githubdeployment.png)
+
+  The live link to the Github repository can be found here - https://github.com/CsClown/BitcoinBridge
+
+### **To fork the repository on GitHub**
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+1. Log in to **GitHub** and locate the [repository](https://github.com/CsClown/BitcoinBridge).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
+![GitHub forking process image](assets/readme-images/forking.png)
+
+### **To create a local clone of this project**
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+![Cloning image](assets/readme-images/cloning.png)
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+
+
+[Back to top](<#contents>)
+
+# Credits
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The icons came from [Font Awesome](https://fontawesome.com/).
+* [Figma](https://figma.com) was used to create the wireframes.
+
 
 ### Media
+* images were derived from [Unsplash](https://www.unsplash.com) and [Pexels](https://www.pexels.com)
+* The photos were compressed using [Compressor](https://compressor.io/).
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+[Back to top](<#contents>)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+# Acknowledgements
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. 
 
-## Other General Project Advice
+Stefan Ruppe. 2024
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
-
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+[Back to top](<#contents>)
