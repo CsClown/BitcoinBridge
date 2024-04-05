@@ -30,22 +30,10 @@ What Sets Us Apart?
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
-         * [Gallery](<#gallery>)
-         * [About-us](<#about-us>)
-         * [Testimonials](<#testimonials>)
+         * [Details](<#details>)
+         * [Memes](<#memes>)
+         * [Contact](<#contact>)
          * [Footer](<#footer>)
-    * [**Projects**](<#projects>)
-        * Dolls Cots
-        * Height Chart
-        * Walker
-    * [**Inspiration**](<#inspiration>)
-        * Elm
-        * Oak
-        * Elm
-    * [**Contact Us**](<#contact-us>)
-       * Contact details
-       * Location map
-       * Design Query form
     * [**Form Confirmation**](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
