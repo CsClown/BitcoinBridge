@@ -146,7 +146,7 @@ Visually appealing with some graphs and interesting stats.
 
 # Testing
 
-Please refer to [**_here_**](TESTING.md) for more information on testing Wawas Woods.
+Please refer to [**_here_**](TESTING.md) for more information on testing Bitcoin Bridge.
 
 [Back to top](<#contents>)
 
