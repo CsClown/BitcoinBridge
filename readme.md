@@ -1,5 +1,5 @@
 
-# **_Wawas Woods_**
+# ** Bitcoin Bridge **
 
 Welcome to Bitcoin Bridge – Your first contact point to the world of Bitcoin!
 
