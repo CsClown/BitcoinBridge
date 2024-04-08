@@ -1,6 +1,6 @@
 # Testing
 ## Code Validation
-The Bidtcoin Bridge site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+The Bitcoin Bridge site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
 
 The HTML validator results for each page are below:
 
@@ -71,4 +71,4 @@ This part of the testing process showed up that the site was slow to load, mainl
 ### Peer review
 In addition to the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. All good.
 
-Back to [README.md](./README.md#testing).
+Back to [README.md](./README.md).
