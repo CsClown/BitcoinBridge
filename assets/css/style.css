@@ -73,7 +73,6 @@ nav {
 
 
 #menu {
-    /* display: none; */
     text-align: right;
     left: 0%;
     list-style: none;
@@ -94,9 +93,8 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    
-    
 }
+
 #hero {
     background: white url('../images/freedom2.jpeg') no-repeat center center / cover;
     display: flex;
@@ -109,11 +107,8 @@ main {
     background-color: rgba(0,0,0, 0.8);
     color: beige;
     text-align: center;
-    
-    
-
-
 }
+
 #hero > h3 {
     font-size: 150%;
     margin-bottom: 40px;
@@ -126,6 +121,7 @@ main {
     letter-spacing: 5px;
     padding-bottom: 30px;
 }
+
 .button {
     display: inline-block;
     background-color: beige;
@@ -137,10 +133,12 @@ main {
     border: none;
     border-radius: 4px;
 }
+
 /* Reasons section */
 #reasons-header-div {
     background-color: rgba(255, 255, 255, 0.8);
 }
+
 #reasons-header-big {
     font-size: 200%;
     align-self: center;
@@ -158,7 +156,6 @@ main {
     flex-direction: column;
     align-items: flex-start;
     padding: 3rem 1rem;
-    
 }
 
 
@@ -170,7 +167,6 @@ main {
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 300;
-    
 }
 
 .reasons {
@@ -185,6 +181,7 @@ main {
     border-radius: 8px;
     padding: 1rem;
 }
+
 .reasons h3 {
     line-height: 200%;
     text-align: center;
@@ -229,7 +226,6 @@ footer > div {
 }
 footer a {
     color: inherit;
-    
 }
 
 footer p {
@@ -293,7 +289,7 @@ footer p {
 }
 
 
-/* Details / what is Bitcoin? */
+/* Details Page */
 #details-image {
     display:flex;
     background: #f5f5dc url('../images/whatisbitcoin1.jpeg') no-repeat center center /cover;
@@ -303,7 +299,6 @@ footer p {
     color:#f5f5dc;
     justify-content: center;
     align-items: center;
-    
 }
 
 #details-image h3 {
@@ -318,7 +313,6 @@ footer p {
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 300;
-
 }
 
 #article-container {
@@ -347,12 +341,10 @@ footer p {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
     border-radius: 8px;
     padding: 1rem;
-    
 }
 
 
 /* Memes Page*/
-
 #gallery-header {
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
@@ -395,20 +387,18 @@ footer p {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
     width: 100%;
     padding: 50px;
 }
+
 #check {
     font-size: 400%;
     margin: 40px;;
 }
+
 #conf-message {
     font-size: 100%;
 }
-
-
-
 
 
 
