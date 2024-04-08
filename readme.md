@@ -1,5 +1,5 @@
 
-# ** Bitcoin Bridge **
+<h1>  - Bitcoin Bridge -  </h1>
 
 Welcome to Bitcoin Bridge – Your first contact point to the world of Bitcoin!
 

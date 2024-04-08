@@ -16,6 +16,8 @@ body {
     flex-direction: column;
     font-family: "Inter", sans-serif;
     color: black;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 a {
@@ -386,7 +388,24 @@ footer p {
     padding: 1rem;
 }
 
-
+#conf-message-container {
+    
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 50px;
+}
+#check {
+    font-size: 400%;
+    margin: 40px;;
+}
+#conf-message {
+    font-size: 100%;
+}
 
 
 
