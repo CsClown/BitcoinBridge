@@ -15,7 +15,7 @@ What Sets Us Apart?
 
 - Comprehensive Resources: From novice to expert, every visitor can find something valuable. We've curated a selection of the most pertinent information, tools, and resources to enrich your understanding and appreciation of Bitcoin and its ecosystem.
 
-#### -- deployed site --  -> <a href="https://csclown.github.io/BitcoinBridge/index.html" target="_blank" rel="noopener">Bitcoin Brige</a> <-
+#### -- deployed site --  -> <a href="https://csclown.github.io/BitcoinBridge/index.html" target="_blank" rel="noopener">Bitcoin Bridge</a> <-
 
 ![Bitcoin Bridge responsive design](assets/readme-images/responsive.png)
 
@@ -50,7 +50,7 @@ What Sets Us Apart?
 
 ## Wireframes
 
-The wireframes for Bitcoin Bridge were produced in [Figma](https://figma.com). There are frames for a full width display and a small mobile device. The final site varies from the wireframes due to developments that occured during the creation process. 
+The wireframes for Bitcoin Bridge were produced in [Figma](https://figma.com). There are frames for a full width display and a small mobile device. The final site varies from the wireframes due to developments that occurred during the creation process. 
 
 ![Desktop wireframe image](assets/readme-images/BBwireframedDesktop.png)
 
@@ -60,8 +60,8 @@ The wireframes for Bitcoin Bridge were produced in [Figma](https://figma.com). T
 
 ## Site Structure
 
-Wawas Woods website has four pages. The [home page](index.html) is the default loading page, [Details](Details.html), [Memes](memes.html) and [contact](contact.html) pages are all accessible primarily from the navigation menu. 
-You may always go back to the landing page by clicking the Bitcoin Bridge logo on the uppe left corner
+The Bitcoin Bridge website has four pages. The [home page](index.html) is the default loading page, [Details](Details.html), [Memes](memes.html) and [contact](contact.html) pages are all accessible primarily from the navigation menu. 
+You may always go back to the landing page by clicking the Bitcoin Bridge logo on the upper left corner
 
 [Back to top](<#contents>)
 ## Design Choices
@@ -98,7 +98,7 @@ Bitcoin Bridge is designed to be user-friendly and inviting, equipped with famil
 
   * ### Memes
 
-    * The "Memes" section provides the user with some entertaing content which is also a big part of the Bitcoin culture and sometimes even educating by pointing out some intricacies or ins and outs of Bitcoin, the crypto space, the financial markets or the world and the people. The Bitcoin community has the best memes in the space!
+    * The "Memes" section provides the user with some entertaining content which is also a big part of the Bitcoin culture and sometimes even educating by pointing out some intricacies or ins and outs of Bitcoin, the crypto space, the financial markets or the world and the people. The Bitcoin community has the best memes in the space!
 
 ![Memes image](assets/readme-images/memespage.png)
 [Back to top](<#contents>)
@@ -129,7 +129,7 @@ Bitcoin Bridge is designed to be user-friendly and inviting, equipped with famil
 
 ## Future Features 
 
-* A section on the landing page with interesting data like price developement  and active Bitcoin adresses over different timeframes.
+* A section on the landing page with interesting data like price development  and active Bitcoin addresses over different timeframes.
 Visually appealing with some graphs and interesting stats.
 * Revise the "Details" section by dividing it into two distinct pages: one titled "What is Bitcoin," focusing on the basics of Bitcoin, and another named "Why It Matters," which delves deeper into the political and societal implications and consequences of this new form of global currency.
 
