@@ -1,6 +1,6 @@
 # Testing
 ## Code Validation
-The Bitcoin Bridge site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+The Bitcoin Bridge site has be thoroughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
 
 The HTML validator results for each page are below:
 
@@ -20,7 +20,7 @@ The HTML validator results for each page are below:
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
-* Form valiadtion page
+* Form validation page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
@@ -59,11 +59,11 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functiona
 ### Lighthouse
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
 * Performance - How the page performs whilst loading.
-* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Accessibility - Is the site accessible for all users and how can it be improved.
 * Best Practices - Site conforms to industry best practices.
-* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+* SEO - Search engine optimization. Is the site optimized for search engine result rankings.
 
-As an example the results for Wawas Woods home page are below:
+As an example the results for Bitcoin Bridge home page are below:
 ![Lighthouse test results](assets/readme-images/testing.png)
 
 This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~73% to ~93%. 
