@@ -494,6 +494,10 @@ footer p {
         max-width: 500px;
         align-self:center;
     }
+    #contact-header {
+        font-size: 180%;
+    }
+
     #contact-form {
         width: 600px;
     }
