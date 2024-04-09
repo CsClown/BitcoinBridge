@@ -114,14 +114,12 @@ main {
     margin-bottom: 40px;
     font-weight: 300;
     letter-spacing: 2px;
-    /* text-shadow: 0px 0px 6px rgba(0,0,0, 0.8); */
 }
 
 #hero > p {
     font-weight: 300;
     letter-spacing: 5px;
     padding-bottom: 30px;
-    /* text-shadow: 0px 0px 10px rgba(0,0,0, 0.8); */
 }
 
 .button {
@@ -136,7 +134,7 @@ main {
     border-radius: 4px;
 }
 
-/* Reasons section */
+/* Reasons section on landing page*/
 #reasons-header-div {
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -382,6 +380,8 @@ footer p {
     padding: 1rem;
 }
 
+
+/* Form submit confirmation page */
 #conf-message-container {
     background-color: rgba(255, 255, 255, 0.8);
     display:flex;
@@ -401,6 +401,9 @@ footer p {
 #conf-message {
     font-size: 100%;
 }
+
+
+/* 404 */
 
 #fourofour-message-container {
     background-color: rgba(255, 255, 255, 0.8);
