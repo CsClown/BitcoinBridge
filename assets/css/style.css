@@ -494,6 +494,13 @@ footer p {
         max-width: 500px;
         align-self:center;
     }
+    #contact-form {
+        width: 600px;
+    }
+
+    #message.text-input {
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 1100px) {
