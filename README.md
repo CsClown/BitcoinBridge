@@ -34,7 +34,7 @@ What Sets Us Apart?
          * [Memes](<#memes>)
          * [Contact](<#contact>)
          * [Footer](<#footer>)
-    * [**Form Confirmation**](<#form-confirmation>)
+         * [Form Confirmation](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
